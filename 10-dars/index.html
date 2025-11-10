@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child{
+            color: green;
+        }
+        ul li:last-child{
+            color:orange
+        }
+        ul li:nth-child(2){
+            color:purple;
+        }
+        ul li:nth-child(odd){
+            color: blue;
+        }
+        ul li:nth-child(even){
+            color:chocolate;    
+        }
+        ul li:empty{
+            display: none;
+        }
+        input:required{
+            border:1px solid red;   
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <ul>
+        <li>olma</li>
+        <li>Banan</li>
+        <li>Nok</li>
+        <li>Hurma</li>
+        <li>Behi</li>
+        <li>Nok</li>
+        <li>Shaftoli</li>
+        <li>Uzum</li>
+        <li>Nok</li>
+        <li>O'rik</li>
+        <li>Hurmo</li>
+        <li>Apelsin</li>
+    </ul>
+
+    <form action="">
+        <input type="text" required>
+        <button>submit</button>
+    </form>
+</body>
+</html>

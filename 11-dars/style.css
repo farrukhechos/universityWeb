@@ -1,0 +1,55 @@
+/* positions */
+.position-box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(227, 227, 227);
+    position: relative;
+
+}
+.red-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+
+}
+.blue-box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+.yellow-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+}
+
+.green-box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    
+}
+/* box sizing */
+
+.content-box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: content-box;
+    border: 2px solid black;
+}
+.border-box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
