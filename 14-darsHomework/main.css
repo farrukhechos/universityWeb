@@ -1,0 +1,106 @@
+.header {
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: grey;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+.first_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.f_box1 {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(95, 3, 3);
+}
+
+.f_box2 {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+}
+
+.second_list {
+    display: flex;
+    gap: 30px;
+}
+
+.s_box1 {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(12, 12, 56);
+}
+
+.s_box2 {
+    width: 500px;
+    height: 150px;
+    background-color: rgb(78, 55, 13);
+}
+
+.second_header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.third_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+}
+
+.t_box1 {
+    width: 250px;
+    height: 225px;
+    background-color: rgb(82, 82, 22);
+}
+
+.t_box2 {
+    width: 370px;
+    height: 225px;
+    background-color: white;
+}
+
+.t_box3 {
+    width: 250px;
+    height: 450px;
+    background-color: rgb(91, 19, 19);
+}
+
+.fourth_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.f2_box1 {
+    width: 360px;
+    height: 200px;
+    background-color: rgb(12, 56, 12);
+}
+
+.f2_box2 {
+    width: 260px;
+    height: 200px;
+    background-color: rgb(56, 12, 56);
+}
+
+.main_list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box_3 {
+    width: 250px;
+    height: 450px;
+    background-color: rgb(90, 26, 26);
+
+}
