@@ -4,7 +4,7 @@
 }
 
 .container {
-    width: 1002px;
+    max-width: 1002px;
     margin: auto;
 }
 
@@ -145,3 +145,45 @@
     font-size: 26px;
     color: #4D4D4D;
 }
+.local-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f7fa;
+    padding: 59px 100px;
+    align-items: center;
+}
+.local-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+.local-item p {
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.card-section{
+    display: flex;
+    gap: 20px;
+}
+.local-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.card-numbers{
+    font-size: 19px;
+}
+.card-title{
+    font-size: 11px;
+    color: #717171;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
