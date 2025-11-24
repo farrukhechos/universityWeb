@@ -1,7 +1,147 @@
-*{
+* {
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.navbar{
+
+.container {
+    width: 1002px;
+    margin: auto;
+}
+
+.navbar {
     display: flex;
-    padding: 44px 203px;
+    justify-content: space-between;
+    padding: 12px 0px;
+    padding: 21px 100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navitems {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.navitems li {
+    list-style-type: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 134px;
+    height: 36px;
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 2.78px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.content-bar {
+    height: 416px;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.bar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.bar-text {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.grey-text {
+    font-size: 12px;
+    color: #717171;
+}
+
+.client-content {
+    padding: 21px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.client-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.client-text {
+    text-align: center;
+    font-size: 26px;
+    color: #4D4D4D;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+
+/* .logos img{
+    width: 60px;
+} */
+.flex-bar {
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+
+.bar-card {
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px 1px #ABBED133;
+    align-items: center;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.phone-content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.phone-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.phone-text {
+    font-size: 26px;
+    color: #4D4D4D;
 }
