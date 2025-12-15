@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: red;
+}
+h2{
+    font-size: 3rem;
+}
+
+@media (max-width: 640px){
+    body{
+        background-color: blue;
+    }
+    h2{
+        font-size: 20px;
+        color:white;
+        font-family: monospace;
+        padding: 10px;
+        text-align: center;
+    }   
+}
