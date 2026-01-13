@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.btn-father{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 40px 80px;
+    border: none;
+    background-color: yellow;
+    transition-property: background-color color;
+    transition-duration:1s;
+}
+/* button:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    transform: translateX(800px);
+    transition:all 8s ease-in-out;
+} */
+.btn1:hover{
+   transform: translateX(900px);
+   transition: all 6s ease-in-out;
+   background-color: cadetblue;
+}
+
+.btn1:hover + .btn2{
+    background-color: blueviolet;
+    color: white;
+    transform:translateX(-900px);
+    transition: all 6s ease-in-out;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: translate(200px, 400px) rotate(44deg);
+}
+
+
+.box:hover{
+transform: translate( 200px, 400px) skew(20deg, 40deg)
+}
+
+.anime{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name:animation;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:3;
+
+}
+
+@keyframes animation{
+    from{
+        background-color: yellow;
+    
+    }
+    to{
+        background-color: red;
+    }
+}
